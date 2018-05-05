@@ -1,0 +1,7 @@
+<div [ngSwitch]="view" class="views">
+    <as-chat-chats-sidenav class="view" *ngSwitchCase="'chats'" [@slideInRight]>
+    </as-chat-chats-sidenav>
+
+    <as-chat-user-sidenav class="view" *ngSwitchCase="'user'" [@slideInLeft]>
+    </as-chat-user-sidenav>
+</div>

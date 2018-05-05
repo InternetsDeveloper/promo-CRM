@@ -1,0 +1,11 @@
+<div class="group-title">
+    <span class="hint-text" [translate]="item.translate">{{ item.title }}</span>
+</div>
+
+<div class="group-items">
+    <ng-container *ngFor="let item of item.children">
+        <as-nav-vertical-group *ngIf="item.type=='group'" [item]="item"></as-nav-vertical-group>
+        <as-nav-vertical-collapse *ngIf="item.type=='collapse'" [item]="item"></as-nav-vertical-collapse>
+        <as-nav-vertical-item *ngIf="item.type=='item'" [item]="item"></as-nav-vertical-item>
+    </ng-container>
+</div>
