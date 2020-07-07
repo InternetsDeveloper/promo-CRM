@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Promo - CRM
 
 Promo Software CRM with Angular 5+ and Angular Material 2
@@ -26,4 +26,3 @@ Before running the tests make sure you are serving the app via `ng serve`.
 =======
 # promo-CRM
 Redesign and Build of a Promo CRM
->>>>>>> 212694c3c29dfdf35c8a735120d30e68af60a73b
